@@ -7,13 +7,13 @@ spring:
 spring:
   profiles: dev
   application:
-    name: mldncloud-config-client3              #定义微服务名称
+    name: mldncloud-config-client4              #定义微服务名称
 server:
   port: 8101
 eureka:
   client:
     service-url:
-      defaultZone: http://edmin:mldnjava@eureka-7001.com:7001/eureka4
+      defaultZone: http://edmin:mldnjava@eureka-7001.com:7001/eureka5
   instance:
     instance-id: config-client.com
 ---
