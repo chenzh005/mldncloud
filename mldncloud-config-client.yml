@@ -20,7 +20,7 @@ eureka:
 spring:
   profiles: product
   application:
-    name: mldncloud-config-client
+    name: mldncloud-config-client4
 server:
   port: 8102
 eureka:
